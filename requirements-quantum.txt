@@ -1,0 +1,28 @@
+
+# Quantum Computing Specific Dependencies
+# Optimized for GitHub Actions environment
+
+# Core quantum frameworks
+qiskit[all]==0.45.2
+qiskit-aer-gpu==0.13.1
+qiskit-experiments==0.5.4
+qiskit-nature==0.7.2
+
+# PennyLane ecosystem
+pennylane[all]==0.33.1
+pennylane-qiskit==0.33.1
+pennylane-lightning[kokkos]==0.33.1
+
+# Additional quantum libraries
+cirq==1.2.0
+cirq-google==1.2.0
+cirq-ionq==1.2.0
+pyquil==4.4.0
+
+# Quantum machine learning
+tensorflow-quantum==0.7.3
+qml-qiskit==0.1.0
+
+# Quantum optimization
+cvxpy==1.4.1
+networkx==3.2.1
